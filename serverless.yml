@@ -1,4 +1,4 @@
-service: client
+service: wheresbhuva
 
 plugins:
     - serverless-s3-deploy
@@ -25,7 +25,7 @@ resources:
     StaticBucket:
       Type: AWS::S3::Bucket
       Properties:
-        BucketName: ${file(../stage.${self:provider.stage}.json):CLIENT_BUCKET}
+        BucketName: ${file(stage.${self:provider.stage}.json):BUCKET}
         AccessControl: PublicRead
         WebsiteConfiguration:
           IndexDocument: index.html
