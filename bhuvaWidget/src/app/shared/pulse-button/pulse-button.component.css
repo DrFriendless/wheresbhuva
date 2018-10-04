@@ -1,0 +1,21 @@
+.pulsate {
+  animation: pulsate 3s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0.0;
+
+  /* you dont need the stuff below, but its what I used to create the loading circle */
+  border: 3px solid #fff;
+  border-radius: 30px;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  text-align: center;
+}
+@-webkit-keyframes pulsate {
+  0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+  50% {opacity: 1.0;}
+  100% {-webkit-transform: scale(2.4, 2.4); opacity: 0.0;}
+}
+.pulsate:hover {
+  cursor: pointer;
+}

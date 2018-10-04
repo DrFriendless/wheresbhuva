@@ -1,0 +1,10 @@
+.europe {
+  background-image: url("/assets/europe/europe.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 2146px;
+  width: 1683px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
