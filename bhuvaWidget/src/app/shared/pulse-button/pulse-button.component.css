@@ -4,7 +4,7 @@
   opacity: 0.0;
 
   /* you dont need the stuff below, but its what I used to create the loading circle */
-  border: 3px solid #88ff88;
+  border: 3px solid;
   border-radius: 30px;
   height: 18px;
   width: 18px;

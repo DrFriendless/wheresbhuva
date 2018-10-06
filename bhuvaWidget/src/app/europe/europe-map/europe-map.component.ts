@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./europe-map.component.css']
 })
 export class EuropeMapComponent {
+  public PULSE_COLOUR = "#ff7777";
+
   constructor(private router: Router) { }
 
   public italy() {

@@ -9,6 +9,8 @@ declare var window: any;
   styleUrls: ['./italy-map.component.css']
 })
 export class ItalyMapComponent implements AfterViewInit {
+  public PULSE_COLOUR = "#77ff77";
+
   constructor(private router: Router) { }
 
   public milano() {
