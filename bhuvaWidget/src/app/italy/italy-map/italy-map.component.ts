@@ -27,6 +27,10 @@ export class ItalyMapComponent implements AfterViewInit {
     this.router.navigateByUrl("/italy/frecciarossa");
   }
 
+  public frecciarossa2() {
+    this.router.navigateByUrl("/italy/frecciarossa2");
+  }
+
   public venice() {
     this.router.navigateByUrl("/italy/venice");
   }

@@ -5,6 +5,7 @@ import {TorinoComponent} from "./torino/torino.component";
 import {MilanoComponent} from "./milano/milano.component";
 import {RomaComponent} from "./roma/roma.component";
 import {FrecciarossaComponent} from "./frecciarossa/frecciarossa.component";
+import {Frecciarossa2Component} from "./frecciarossa2/frecciarossa2.component";
 import {VeniceComponent} from "./venice/venice.component";
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'milano', component: MilanoComponent },
   { path: 'roma', component: RomaComponent },
   { path: 'frecciarossa', component: FrecciarossaComponent },
+  { path: 'frecciarossa2', component: Frecciarossa2Component },
   { path: 'venice', component: VeniceComponent },
 ];
 

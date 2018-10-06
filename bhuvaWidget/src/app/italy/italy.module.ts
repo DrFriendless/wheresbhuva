@@ -9,6 +9,7 @@ import {TorinoComponent} from "./torino/torino.component";
 import {SharedModule} from "../shared/shared.module";
 import { FrecciarossaComponent } from './frecciarossa/frecciarossa.component';
 import { VeniceComponent } from './venice/venice.component';
+import { Frecciarossa2Component } from './frecciarossa2/frecciarossa2.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { VeniceComponent } from './venice/venice.component';
     MilanoComponent,
     TorinoComponent,
     FrecciarossaComponent,
-    VeniceComponent
+    VeniceComponent,
+    Frecciarossa2Component
   ]
 })
 export class ItalyModule { }
