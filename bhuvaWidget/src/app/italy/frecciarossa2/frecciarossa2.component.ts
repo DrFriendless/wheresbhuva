@@ -8,14 +8,11 @@ declare var window: any;
   templateUrl: './frecciarossa2.component.html',
   styleUrls: ['./frecciarossa2.component.css']
 })
-export class Frecciarossa2Component implements OnInit, AfterViewInit {
+export class Frecciarossa2Component implements AfterViewInit {
   constructor(private stateService: StateService) { }
 
-  ngOnInit() {
-  }
-
   ngAfterViewInit() {
-    setTimeout(function() { alert("Yes! You've found her!"); }, 1);
-    this.stateService.findBhuva("Bhuva is on the Frecciarossa again!");
+    // setTimeout(function() { alert("Yes! You've found her!"); }, 1);
+    // this.stateService.findBhuva("Bhuva is on the Frecciarossa again!");
   }
 }

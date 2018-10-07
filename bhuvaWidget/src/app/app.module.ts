@@ -13,6 +13,10 @@ const appRoutes: Routes = [
     loadChildren: './europe/europe.module#EuropeModule'
   },
   {
+    path: 'roma',
+    loadChildren: './roma/roma.module#RomaModule'
+  },
+  {
     path: '',
     redirectTo: '/europe',
     pathMatch: 'full'
