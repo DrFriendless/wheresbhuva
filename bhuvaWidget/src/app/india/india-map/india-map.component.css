@@ -1,0 +1,10 @@
+.india {
+  background-image: url("/assets/india/india_map.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 1236px;
+  width: 1000px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

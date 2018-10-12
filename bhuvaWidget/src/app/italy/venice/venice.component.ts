@@ -11,7 +11,7 @@ export class VeniceComponent implements AfterViewInit {
   constructor(private stateService: StateService) { }
 
   ngAfterViewInit() {
-    setTimeout(function() { alert("Yes! You've found her!"); }, 1);
-    this.stateService.findBhuva("Bhuva is in Venice.");
+    // setTimeout(function() { alert("Yes! You've found her!"); }, 1);
+    // this.stateService.findBhuva("Bhuva is in Venice.");
   }
 }

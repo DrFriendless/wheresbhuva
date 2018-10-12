@@ -1,0 +1,10 @@
+.world {
+  background-image: url("/assets/world/world.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 528px;
+  width: 1000px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

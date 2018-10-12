@@ -14,4 +14,8 @@ export class EuropeMapComponent {
   public italy() {
     this.router.navigateByUrl("/italy");
   }
+
+  public cracow() {
+    this.router.navigateByUrl("/europe/cracow");
+  }
 }

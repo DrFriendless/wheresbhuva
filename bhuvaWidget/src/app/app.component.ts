@@ -17,4 +17,8 @@ export class AppComponent {
   public whereBhuvaIs() {
     return this.stateService.whereBhuvaIs();
   }
+
+  public dogsFound() {
+    return this.stateService.whatDogsHaveBeenFound();
+  }
 }

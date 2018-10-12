@@ -1,0 +1,10 @@
+.australia {
+  background-image: url("/assets/australia/australia.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 736px;
+  width: 1000px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

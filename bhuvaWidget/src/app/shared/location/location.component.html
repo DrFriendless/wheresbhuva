@@ -1,0 +1,14 @@
+<h3 *ngIf="!!text">{{text}}</h3>
+
+<div class="back" *ngIf="!!back">
+  <a routerLink="{{back}}"><button>Back</button></a>
+</div>
+
+<img *ngIf="!!image" src="/assets/{{image}}"/>
+
+<div [ngStyle]="{ display: (!!find && !acknowledged) ? 'flex' : 'none' }" class="overlay">
+  <div style="text-align:center; vertical-align: middle; margin: auto">
+    <h1 style="margin: auto">You've found {{find}}!</h1>
+    <button (click)="ack()">Hooray!</button>
+  </div>
+</div>
