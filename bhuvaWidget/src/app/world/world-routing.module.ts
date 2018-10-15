@@ -6,9 +6,11 @@ import {LocationComponent} from "../shared/location/location.component";
 const routes: Routes = [
   {
     path: 'america', component: LocationComponent, data: {
-      image: "world/the_donald.jpg",
-      text: "Oh goodness, she wouldn't go to that stupid place, would she?",
-      back: "/world"
+      image: "world/bhuva_sanfrancisco.jpg",
+      text: "Yes! She's there!",
+      back: "/world",
+      bhuva: "Bhuva is in the United States!",
+      find: "Bhuva"
     }
   },
   { path: '', component: WorldMapComponent },

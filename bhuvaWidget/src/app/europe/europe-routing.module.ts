@@ -7,10 +7,8 @@ const routes: Routes = [
   {
     path: 'cracow', component: LocationComponent, data: {
       image: "/europe/cracow.jpg",
-      text: "Somewhere near the Uniwersytet Jagielloński, you hear Bhuva's laugh!",
-      back: "/europe",
-      find: "Bhuva",
-      bhuva: "Bhuva is in Cracow!"
+      text: "Tomasz the taxi driver says he took Bhuva to the airport, to catch a FlyDubai flight.",
+      back: "/europe"
     }
   },
   { path: '', component: EuropeMapComponent },
